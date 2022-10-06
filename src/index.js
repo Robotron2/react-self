@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -56,24 +57,22 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // Creating A component
 
-const MyComponent = () => {
-	return <h1>My Favorite Foods</h1>;
-};
+// const MyComponent = () => {
+// 	return <h1>My Favorite Foods</h1>;
+// };
 
-const ListComponent = () => {
-	return (
-		<ul>
-			<li>Food 1</li>
-			<li>Food 2</li>
-			<li>Food 3</li>
-		</ul>
-	);
-};
+// const ListComponent = () => {
+// 	return (
+// 		<ul>
+// 			<li>Food 1</li>
+// 			<li>Food 2</li>
+// 			<li>Food 3</li>
+// 		</ul>
+// 	);
+// };
 
 root.render(
 	<div>
-		<MyComponent />
-		<ListComponent />
-		<ListComponent />
+		<App />
 	</div>
 );

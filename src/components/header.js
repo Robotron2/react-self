@@ -1,4 +1,5 @@
 import React from "react";
+import Hero from "./hero";
 
 const Heading = () => {
     return (
@@ -12,7 +13,7 @@ const NavbarComponent = () => {
     return (
         <div>
             <header>
-                <nav className="navbar navbar-expand-lg text-primary">
+                <nav className="navbar navbar-expand-lg">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="/">
                             Navbar
@@ -56,6 +57,7 @@ const NavbarComponent = () => {
                         </div>
                     </div>
                 </nav>
+                <Hero />
             </header>
         </div>
     );

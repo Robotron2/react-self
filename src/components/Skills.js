@@ -11,7 +11,11 @@ const Skills = (props) => {
                 <h2 className="pb-2 border-bottom">Skills Card</h2>
 
                 <div className="row row-cols-1 row-cols-lg-4 row-cols-md-2 align-items-stretch g-4 py-5">
-                    <SkillCard pic={pic} />
+                    <SkillCard
+                        pic={pic}
+                        tel="09034392134"
+                        email="myemail@example.com"
+                    />
                     <SkillCard
                         pic={moonBg}
                         tel="09034392134"
@@ -52,7 +56,7 @@ const bgColor = {
 
 const SkillCard = (props) => {
     return (
-        <div>
+        <div className="mb-5 border-top">
             <div className="col">
                 <div
                     className="card card-cover h-100 overflow-hidden  rounded-4 shadow-lg skill-card"

@@ -11,8 +11,6 @@ root.render(
     <div>
         <Heading />
         <div className="container">
-            <Hero />
-
             <Skills
                 title="React Component Title"
                 img="./images/PlusMinus.png"

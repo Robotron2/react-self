@@ -12,31 +12,37 @@ const Skills = (props) => {
 
                 <div className="row row-cols-1 row-cols-lg-4 row-cols-md-2 align-items-stretch g-4 py-5">
                     <SkillCard
+                        name="Theo"
                         pic={pic}
                         tel="09034392134"
                         email="myemail@example.com"
                     />
                     <SkillCard
+                        name="Philus"
                         pic={moonBg}
                         tel="09034392134"
                         email="myemail@example.com"
                     />
                     <SkillCard
+                        name="Japheth"
                         pic={jellyBg}
                         tel="09034392134"
                         email="myemail@example.com"
                     />
                     <SkillCard
+                        name="Margaret"
                         pic={flowerBg}
                         tel="09034392134"
                         email="myemail@example.com"
                     />
                     <SkillCard
+                        name="Raphael"
                         pic={jellyBg}
                         tel="09034392134"
                         email="myemail@example.com"
                     />
                     <SkillCard
+                        name="Robotron"
                         pic={moonBg}
                         tel="09034392134"
                         email="myemail@example.com"
@@ -64,7 +70,7 @@ const SkillCard = (props) => {
                 >
                     <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                            Robotron
+                            {props.name}
                         </h3>
                         <ul className="d-block list-unstyled mt-auto">
                             <li className="me-auto mb-1">

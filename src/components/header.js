@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "./hero";
+import Hero from "./Hero";
 
 const Heading = () => {
     return (
@@ -16,7 +16,7 @@ const NavbarComponent = () => {
                 <nav className="navbar navbar-expand-lg">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="/">
-                            ROBOWEB
+                            <h1>ROBOWEB</h1>
                         </a>
                         <button
                             className="navbar-toggler"

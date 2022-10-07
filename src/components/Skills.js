@@ -73,12 +73,10 @@ const SkillCard = (props) => {
                                 />
                             </li>
                             <div>
-                                <li className="me-auto">Phone: {props.tel}</li>
+                                <li className="me-auto">📞 {props.tel}</li>
                             </div>
                             <div>
-                                <li className="me-auto">
-                                    Email: {props.email}
-                                </li>
+                                <li className="me-auto">✉️ {props.email}</li>
                             </div>
                         </ul>
                     </div>

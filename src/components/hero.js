@@ -7,12 +7,20 @@ const Hero = () => {
                 <h1 className="display-5 fw-bold">Welcome To Roboweb</h1>
                 <div className="col-lg-6 mx-auto">
                     <p className="lead mb-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Reiciendis iste officia aperiam amet placeat labore
-                        maxime sint porro excepturi quasi animi vitae vero,
-                        mollitia in pariatur aut repudiandae exercitationem at
-                        mollitia in pariatur aut repudiandae exercitationem at
-                        mollitia in pariatur aut repudiandae exercitationem at.
+                        <span>Lorem ipsum</span> <span>dolor</span>
+                        <span>sit</span> <span>amet</span>{" "}
+                        <span>consectetur</span> <span>adipisicing</span>
+                        <span> elit. </span>
+                        <span>Reiciendis</span> <span>iste</span>{" "}
+                        <span>officia</span> <span>aperiam amet</span>{" "}
+                        <span>placeat labore</span>
+                        <span> maxime sint porro</span>{" "}
+                        <span>excepturi quasi animi vitae</span>{" "}
+                        <span>vero,</span>
+                        <span>
+                            mollitia in pariatur aut repudiandae exercitationem
+                            at
+                        </span>
                     </p>
                     <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
                         <button

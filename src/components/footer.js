@@ -11,7 +11,7 @@ const Footer = () => {
 const FirstFooterChild = () => {
     return (
         <div>
-            <footer className="d-flex flex-wrap justify-content-between align-items-center py-1 my-4 border-top">
+            <footer className="d-flex flex-wrap justify-content-between align-items-center  my-4 border-top mb-0">
                 <div className="container-fluid d-flex">
                     <div className="col-md-4 d-flex align-items-center">
                         <a

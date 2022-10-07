@@ -8,7 +8,7 @@ const Skills = (props) => {
     return (
         <div>
             <div className="container px-4 py-5" id="custom-cards">
-                <h2 className="pb-2 border-bottom">Skills Card</h2>
+                <h2 className="pb-2 border-bottom">My Contacts</h2>
 
                 <div className="row row-cols-1 row-cols-lg-4 row-cols-md-2 align-items-stretch g-4 py-5">
                     <SkillCard
@@ -56,7 +56,7 @@ const bgColor = {
 
 const SkillCard = (props) => {
     return (
-        <div className="mb-5 border-top">
+        <div className="mb-5 ">
             <div className="col">
                 <div
                     className="card card-cover h-100 overflow-hidden  rounded-4 shadow-lg skill-card"

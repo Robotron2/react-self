@@ -16,7 +16,7 @@ const NavbarComponent = () => {
                 <nav className="navbar navbar-expand-lg">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="/">
-                            Navbar
+                            ROBOWEB
                         </a>
                         <button
                             className="navbar-toggler"

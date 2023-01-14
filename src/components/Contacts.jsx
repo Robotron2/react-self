@@ -4,7 +4,7 @@ import moonBg from "../images/moonBg.jpg";
 import flowerBg from "../images/flowerBg.jpg";
 import jellyBg from "../images/jellyBg.jpg";
 
-const Skills = (props) => {
+const Skills = () => {
     return (
         <div>
             <div className="container px-4 py-5" id="custom-cards">
